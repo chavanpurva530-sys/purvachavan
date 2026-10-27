@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .main-container {
+            width: 900px;
+            border: 2px solid black;
+            background-color: rgb(128, 219, 219);
+        }
+
+        /* First Paragraph and Inputs */
+        .first-box {
+            border: 1px solid gray;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: rgb(233, 239, 235);
+            gap: 10px;
+        }
+
+        .first-para {
+            border: 1px solid blue;
+            width: 200px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            background-color: rgb(174, 141, 206);
+            justify-content: center;
+            text-align: center;
+        }
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: rgb(246, 244, 249);
+            width: 250px;
+        }
+
+        .input-container input {
+            height: 30px;
+            box-sizing: border-box;
+            background-color: rgb(237, 237, 239);
+        }
+
+        .input-container button {
+            height: 35px;
+            background-color: bisque;
+        }
+
+        /* Trending Section */
+        .trending-box {
+            border: 1px solid gray;
+            text-align: center;
+            background-color: rgb(167, 122, 174);
+        }
+
+        .trending-box h2 {
+            color: rgb(140, 30, 30);
+            background-color: rgb(178, 191, 139);
+        }
+
+        .image-container {
+            display: flex;
+            background-color: rgb(218, 137, 211);
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+
+        .image-container img {
+            width: 200px;
+            height: 150px;
+            background-color: aliceblue;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+        /* More Section */
+        .more-box {
+            border: 1px solid gray;
+            text-align: center;
+            background-color: rgb(154, 206, 189);
+        }
+
+        .paragraph-container {
+            display: flex;
+            background-color: rgb(139, 247, 242);
+            gap: 10px;
+        }
+
+        .para-box {
+            border: 2px solid green;
+            width: 33.33%;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+            background-color: rgb(129, 193, 172);
+        }
+
+        /* FAQ Section */
+        .faq-box {
+            border: 1px solid gray;
+            text-align: center;
+            background-color: rgb(161, 141, 181);
+        }
+
+        .hello-box {
+            border: 1px solid green;
+            height: 60px;
+            display: flex;
+            background-color: aquamarine;
+            align-items: center;
+        }
+
+        /* Bottom Input and Button */
+        .search-box {
+            border: 1px solid gray;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(190, 146, 89);
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-box input {
+            width: 250px;
+            height: 35px;
+            background-color: rgb(164, 183, 101);
+            box-sizing: border-box;
+        }
+
+        .search-box button {
+            width: 100px;
+            height: 35px;
+            cursor: pointer;
+            background-color: rgb(181, 148, 211);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-container">
+
+        <!-- 1. Paragraph Box and Two Inputs -->
+        <div class="first-box">
+
+            <div class="first-para">
+                <p>MY FIRST WEBSITE</p>
+            </div>
+
+            <div class="input-container">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <button type="button">Submit</button>
+            </div>
+
+        </div>
+
+        <!-- 2. Trending Section -->
+        <div class="trending-box">
+
+            <h2>Trending</h2>
+
+            <div class="image-container">
+                <img src="sunset3.jfif" alt="Image 1">
+                <img src="sunset2.jfif" alt="Image 2">
+                <img src="sunset1.jpg" alt="Image 3">
+                <img src="sunset5.jfif" alt="Image 4">
+            </div>
+
+        </div>
+
+        <!-- 3. More Section -->
+        <div class="more-box">
+
+            <h2>More</h2>
+
+            <div class="paragraph-container">
+
+                <div class="para-box">
+                    <p>Paragraph One</p>
+                </div>
+
+                <div class="para-box">
+                    <p>Paragraph Two</p>
+                </div>
+
+                <div class="para-box">
+                    <p>Paragraph Three</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 4. Frequently Ask Question -->
+        <div class="faq-box">
+
+            <h2>Frequently Ask Question</h2>
+
+            <div class="hello-box">
+                <h3>Hello 1</h3>
+            </div>
+
+            <div class="hello-box">
+                <h3>Hello 2</h3>
+            </div>
+
+            <div class="hello-box">
+                <h3>Hello 3</h3>
+            </div>
+
+        </div>
+
+        <!-- 5. Center Input and Button -->
+        <div class="search-box">
+
+            <input type="text" placeholder="Enter your text">
+
+            <button type="button">Submit</button>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
